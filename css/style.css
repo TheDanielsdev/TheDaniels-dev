@@ -21,8 +21,7 @@ h3,
 h4,
 h5,
 h6{
-  color: #fff;
-  background-color: #000;
+  filter: invert(1) hue-rotate(180deg);
 }
 
 .darkmode > button{
