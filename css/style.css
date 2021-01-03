@@ -14,9 +14,16 @@ body {
   color: #4e4e4e;
 }
 
-body.dark-theme{
+body.dark-theme {
   color: #fff;
   background-color: #000;
+}
+
+.darkmode {
+  border: 1px solid #ffff00;
+  border-radius: 20px;
+  color: #fff;
+  background: #000;
 }
 
 h1,
