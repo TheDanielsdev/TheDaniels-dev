@@ -19,7 +19,7 @@ body.dark-theme {
   background-color: #000;
 }
 
-.darkmode {
+.darkmode > button{
   border: 1px solid #ffff00;
   border-radius: 20px;
   color: #fff;
