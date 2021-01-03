@@ -44,7 +44,7 @@ a:hover {
 }
 
 .color-a {
-  color: #0078ff;
+  color: #ffff00;
 }
 
 .color-d {
@@ -65,7 +65,7 @@ a:hover {
 
 .box-shadow-a,
 .button:hover {
-  box-shadow: 0 0 0 4px #cde1f8;
+  box-shadow: 0 0 0 4px #f7f776;
 }
 
 .display-5 {
@@ -95,7 +95,7 @@ a:hover {
 }
 
 .overlay-mf {
-  background-color: #0078ff;
+  background-color: #ffff00;
 }
 
 .overlay-mf {
