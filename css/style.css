@@ -108,7 +108,7 @@ a:hover {
 }
 
 .overlay-mf {
-  background-color: #bdbd03;
+  background-color: linear-gradient(to right, #ffff00, #fcfc69);
 }
 
 .overlay-mf {
