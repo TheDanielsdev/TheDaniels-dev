@@ -715,7 +715,7 @@ a:hover {
 
 .skill-mf .progress .progress-bar {
   height: 0.7rem;
-  background-color: #bdbd03;
+  background-color: red;
 }
 
 /*======================================
