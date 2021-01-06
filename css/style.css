@@ -1287,3 +1287,11 @@ footer .credits a {
     bottom: 15px;
   }
 }
+
+@media (orientation: portrait){
+  
+    .bg-image{
+      background: #000;
+    }
+ 
+}
