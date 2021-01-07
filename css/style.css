@@ -718,6 +718,15 @@ a:hover {
   background-color: #bdbd03;
 }
 
+
+progress[value]{
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+progress[value]::-webkit-progress-bar{
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset;
+}
 /*======================================
 //--//-->   SERVICES
 ======================================*/
