@@ -92,7 +92,7 @@ jQuery(document).ready(function ($) {
     else var str = $(this).serialize();
     var action = $(this).attr('action');
     if (!action) {
-      action = 'https://formsubmit.co/thedanielsdev@gmail.com';
+      action = '';
     }
     $.ajax({
       type: "POST",
@@ -118,3 +118,11 @@ jQuery(document).ready(function ($) {
 });
 
 
+function submit() {
+  if (document.querySelectorAll('.form-control') != 0) {
+    alert('Thanks!')
+  }
+  else {
+    alert('an error occured!')
+  }
+}
