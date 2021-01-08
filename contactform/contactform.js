@@ -118,11 +118,3 @@ jQuery(document).ready(function ($) {
 });
 
 
-function submit() {
-  if (document.querySelectorAll('.form-control') != 0) {
-    alert('Thanks!')
-  }
-  else {
-    alert('an error occured!')
-  }
-}
