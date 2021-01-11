@@ -111,6 +111,7 @@ a:hover {
 @media (orientation: portrait){
   .bg-image{
     background-image: url('bulb.jpg');
+    
   }
 }
 
