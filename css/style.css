@@ -718,6 +718,17 @@ a:hover {
   background-color: #bdbd03;
 }
 
+/*okay heres mine*/
+progress[value]{
+  -webkit-appearance: none;
+  appearance: none;
+  height: 0.7rem;
+  width: 500px;
+}
+/*progress .my-progress-bar{
+
+}*/
+
 
 
 
