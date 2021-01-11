@@ -775,7 +775,7 @@ progress .my-progress-bar{
   progress .my-progress-bar{
     height: 0.7rem;
     width: 300px;
-    margin-left: 20px;
+    margin-left: 10px;
   }
   progress[value]{
     -webkit-appearance: none;
@@ -787,7 +787,8 @@ progress .my-progress-bar{
   }
 
   .skill-mf span {
-    display: none;
+    display: block;
+
   }
   .col-md-6{
     margin-left: 0px;
