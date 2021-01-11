@@ -785,6 +785,11 @@ progress .my-progress-bar{
   #about .about-mf{
     margin-left: 0px;
   }
+
+  .skill-mf{
+    padding: 20px;
+    
+  }
 }
 
 
