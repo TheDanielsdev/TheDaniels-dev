@@ -1254,6 +1254,12 @@ footer .credits a {
   cursor: pointer;
 }
 
+@media (orientation: portrait){
+  .button{
+    margin-left: 20px;
+  }
+}
+
 .button:focus {
   outline: 0;
 }
