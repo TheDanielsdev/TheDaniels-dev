@@ -781,6 +781,10 @@ progress .my-progress-bar{
   .col-md-6{
     margin-left: 50px;
   }
+
+  #about .about-mf{
+    margin-left: 0px;
+  }
 }
 
 
