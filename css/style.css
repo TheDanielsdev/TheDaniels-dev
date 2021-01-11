@@ -769,6 +769,7 @@ progress .my-progress-bar{
   progress .my-progress-bar{
     height: 0.7rem;
     width: 300px;
+    margin-left: 20px;
   }
   progress[value]{
     -webkit-appearance: none;
