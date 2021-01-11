@@ -15,11 +15,6 @@ body {
   
 }
 
-@media(orientation: portrait){
-  body{
-    background-image: url('bulb.jpg');
-  }
-}
 
 /*body.dark-theme {
   filter: invert(1) hue-rotate(180deg);
@@ -111,6 +106,12 @@ a:hover {
   background-attachment: fixed;
   background-size: cover;
   background-position: center center;
+}
+
+@media (orientation: portrait){
+  .bg-image{
+    background-image: url('bulb.jpg');
+  }
 }
 
 .overlay-mf {
