@@ -108,12 +108,7 @@ a:hover {
   background-position: center center;
 }
 
-@media (orientation: portrait){
-  .bg-image{
-    background-image: url('bulb.jpg');
-    
-  }
-}
+
 
 .overlay-mf {
   background-color: linear-gradient(to right, #000, #0000);
@@ -1254,11 +1249,7 @@ footer .credits a {
   cursor: pointer;
 }
 
-@media (max-width: 300px){
-  .button{
-    margin-left: 20px;
-  }
-}
+
 
 
 .button:focus {
