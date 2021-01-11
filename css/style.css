@@ -17,7 +17,7 @@ body {
 
 @media(orientation: portrait){
   body{
-    background: url('led.jpg');
+    background-image: url('bulb.jpg');
   }
 }
 
