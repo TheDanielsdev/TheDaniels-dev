@@ -29,6 +29,17 @@ body {
   padding: 10px;
 }*/
 
+#piechart {
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+@media (orientation: portrait){
+    #piechart {
+        margin-left: -50px;
+    }
+}
+
 h1,
 h2,
 h3,
