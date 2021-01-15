@@ -30,9 +30,11 @@ body {
 }*/
 
 #piechart {
-    margin-left: 50px;
+    margin-left: 300px;
     margin-top: 50px;
 }
+
+
 
 @media (orientation: portrait){
     #piechart {
@@ -716,6 +718,7 @@ a:hover {
 //--//-->   ABOUT
 ======================================*/
 
+
 .col-md-6 {
     margin-left: 300px;
 }
@@ -741,6 +744,8 @@ a:hover {
 .skill-mf span {
     color: #4e4e4e;
 }
+
+
 
 
 /*.skill-mf .progress {
