@@ -16,8 +16,9 @@ body {
 }
 
 .dark-theme {
-    background-color: #000;
-    color: #fff;
+    filter: invert(1) hue-rotate(180deg);
+    /*background-color: #000;
+    color: #fff;*/
 }
 
 
