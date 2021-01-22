@@ -15,6 +15,60 @@ body {
     color: #4e4e4e;
 }
 
+.shownext {
+    display: none;
+}
+
+.shownextHome {
+    display: none;
+}
+
+li:hover+.shownextHome {
+    display: block;
+    margin-left: -100px;
+    margin-top: 50px;
+    padding-top: 50px;
+    border: 5px solid #ffff00;
+    z-index: 99;
+    position: absolute;
+    overflow: hidden;
+    width: 400px;
+    border-radius: 10px 10px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #000;
+    color: #fff;
+    font-style: italic;
+}
+
+li:hover+.shownext {
+    display: block;
+    margin-left: 60px;
+    margin-top: 50px;
+    padding-top: 50px;
+    border: 5px solid #ffff00;
+    z-index: 99;
+    position: absolute;
+    overflow: hidden;
+    width: 400px;
+    border-radius: 10px 10px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #000;
+    color: #fff;
+    font-style: italic;
+}
+
+@media screen and (max-width: 600px) {
+    .shownext {
+        visibility: hidden;
+    }
+}
+
 
 /*.dark-theme {
     filter: invert(1) hue-rotate(180deg);
