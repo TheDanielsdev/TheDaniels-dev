@@ -67,6 +67,9 @@ li:hover+.shownext {
     .shownext {
         visibility: hidden;
     }
+    .shownextHome {
+        visibility: hidden;
+    }
 }
 
 
