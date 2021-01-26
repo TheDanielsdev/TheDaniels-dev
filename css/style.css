@@ -72,6 +72,15 @@ li:hover+.shownext {
     }
 }
 
+@media screen and (max-width: 600px) {
+    .shownextHome {
+        -webkit-appearance: none;
+        appearance: none;
+        display: none;
+        visibility: hidden;
+    }
+}
+
 
 /*.dark-theme {
     filter: invert(1) hue-rotate(180deg);
