@@ -9,9 +9,9 @@ function drawChart() {
         ['HTML', 9],
         ['CSS', 8],
         ['JAVASCRIPT', 6],
-        ['PHP', 5],
-        ['JQUERY', 4]
-        
+        ['JQUERY', 6],
+        ['PHP', 5]
+
     ]);
 
     // Optional; add a title and set the width and height of the chart
