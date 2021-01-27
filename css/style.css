@@ -190,7 +190,7 @@ a:hover {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    background-position: center center;
+    background-position: center;
 }
 
 .overlay-mf {
@@ -925,7 +925,7 @@ progress .my-progress-bar {
         width: 300px;
     }
     .skill-prog {
-        margin-left: -35px;
+        margin-left: -25px;
         padding-left: 0;
     }
     .skill-mf span {
