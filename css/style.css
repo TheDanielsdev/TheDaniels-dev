@@ -243,6 +243,14 @@
             margin-top: 5vh;
         }
     }
+    
+    @media screen and (max-width: 700px) {
+        .intro-title {
+            margin-top: 100px;
+            font-size: small;
+            line-height: 1em;
+        }
+    }
     /*.dark-theme {
     filter: invert(1) hue-rotate(180deg);
     background-color: #000;
