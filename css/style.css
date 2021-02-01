@@ -260,6 +260,95 @@
             line-height: 1em;
         }
     }
+    
+    #TOC {
+        margin-left: 200px;
+        margin-top: 20px;
+        background: rgb(155, 155, 1);
+        color: black;
+        font-style: bold;
+        border: 5px solid yellow;
+        padding: 10px;
+        font-size: 20px;
+        box-shadow: 2px 2px 20px grey;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+    
+    #TOC:hover {
+        background: yellow;
+        color: black;
+        border: 5px solid yellow;
+    }
+    
+    #more {
+        margin-left: 200px;
+        margin-top: 20px;
+        background: rgb(155, 155, 1);
+        color: black;
+        font-style: bold;
+        border: 5px solid yellow;
+        padding: 10px;
+        font-size: 20px;
+        box-shadow: 2px 2px 20px grey;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+    
+    #more:hover {
+        background: yellow;
+        color: black;
+        border: 5px solid yellow;
+    }
+    
+    #morepg {
+        display: none;
+    }
+    
+    #morepg>h1 {
+        color: rgb(255, 187, 0);
+    }
+    
+    #TOC-LIST {
+        display: none;
+        margin-left: 80px;
+        margin-top: 50px;
+        border: 8px solid yellow;
+        width: 500px;
+        padding: 50px;
+        border-radius: 30px;
+        background: linear-gradient(to bottom, rgb(255, 196, 0), rgb(247, 215, 39));
+    }
+    
+    #TOC-LIST li {
+        padding: 10px;
+        font-style: bold;
+        text-transform: uppercase;
+    }
+    
+    .article-content .p {
+        margin-top: 70px;
+    }
+    
+    .article-content p {
+        font-style: bold;
+    }
+    
+    .article-content>h1 {
+        color: rgb(255, 187, 0);
+    }
+    
+    @media screen and (max-width: 700px) {
+        #TOC {
+            margin-left: 100px;
+        }
+        #TOC-LIST {
+            margin-left: -45px;
+        }
+        #more {
+            margin-left: 120px;
+        }
+    }
     /*.dark-theme {
     filter: invert(1) hue-rotate(180deg);
     background-color: #000;
