@@ -194,21 +194,23 @@
             display: none;
         }
     }
-    /* #thumbs {
+    
+    #thumbs {
         margin-left: 100px;
-    }*/
+    }
     
     #thumb-up {
         padding-right: 50px;
         size: 10px;
         cursor: pointer;
         margin-left: 20px;
+        margin-top: 50px;
     }
     
     #thumb-down {
         padding-left: 30px;
         cursor: pointer;
-        margin-left: 400px;
+        margin-left: 50px;
         margin-top: -100px;
     }
     /* #thumb-down:hover {
@@ -229,20 +231,19 @@
         padding-right: 5px;
     }*/
     
-    @media screen and (max-width: 600px) {
+    @media screen and (max-width: 900px) {
         #thumbs {
-            margin-left: 10px;
-            display: inline;
+            margin-left: 40px;
         }
         #thumb-down {
-            margin-left: 200px;
+            margin-left: 10px;
             margin-top: -5vh;
-            display: inline;
         }
         #thumb-up {
             margin-top: 5vh;
         }
     }
+    /*i wrote this code to handle the blog header display on smaller screens*/
     
     @media screen and (max-width: 700px) {
         .intro-title {
