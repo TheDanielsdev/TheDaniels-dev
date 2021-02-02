@@ -341,6 +341,7 @@
     @media screen and (max-width: 700px) {
         #TOC {
             margin-left: 100px;
+            width: 100px;
         }
         #TOC-LIST {
             margin-left: -45px;
