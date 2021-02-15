@@ -114,3 +114,16 @@ h2 span {
         margin-left: 50px;
     }
 }
+
+@media (orientation: portrait) {
+    h2 span {
+        margin-left: 100px;
+    }
+    .socials {
+        margin-left: 450px;
+        font-size: 5vw;
+    }
+    .btn {
+        margin-left: 50px;
+    }
+}
