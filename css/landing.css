@@ -102,28 +102,22 @@ h2 span {
     color: #fff;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 750px) {
     h2 span {
         margin-left: 100px;
     }
     .socials {
         margin-left: 450px;
-        font-size: 5vw;
+        font-size: 7vw;
+        position: fixed;
+        margin-top: -350px;
     }
     .btn {
         margin-left: 50px;
-    }
-}
-
-@media (orientation: portrait) {
-    h2 span {
-        margin-left: 100px;
-    }
-    .socials {
-        margin-left: 450px;
-        font-size: 5vw;
-    }
-    .btn {
-        margin-left: 50px;
+        position: fixed;
+        margin-top: 200px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
     }
 }
