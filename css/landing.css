@@ -102,7 +102,7 @@ h2 span {
     color: #fff;
 }
 
-@media screen and (max-width: 750px) {
+@media(max-width: 991px) {
     h2 span {
         margin-left: 100px;
     }
