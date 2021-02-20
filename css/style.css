@@ -14,6 +14,23 @@
     }
     /*these code below here are for the display text on hover for navs, normal buttons and or texts or tag*/
     
+    .dark {
+        background-color: #000;
+        color: #fff;
+    }
+    
+    .dark h3 {
+        color: #fff;
+    }
+    
+    .dark p {
+        color: #fff;
+    }
+    
+    .dark .navbar {
+        background-color: #000;
+    }
+    
     .shownext {
         display: none;
     }
@@ -62,7 +79,7 @@
         font-style: italic;
     }
     
-    @media screen and (max-width: 600px) {
+    @media screen and (max-width: 991px) {
         .shownext {
             visibility: hidden;
         }
@@ -71,7 +88,7 @@
         }
     }
     
-    @media screen and (max-width: 600px) {
+    @media(max-width: 991px) {
         .shownextHome {
             -webkit-appearance: none;
             appearance: none;
@@ -97,7 +114,7 @@
         width: 0%;
     }
     
-    @media screen and (max-width: 700px) {
+    @media(max-width: 991px) {
         .progress-container {
             position: sticky;
             top: 130px;
@@ -194,7 +211,7 @@
         opacity: 1;
     }
     
-    @media screen and (max-width: 600px) {
+    @media(max-width: 991px) {
         .list-sidebar {
             display: none;
         }
@@ -239,7 +256,7 @@
         padding-right: 5px;
     }*/
     
-    @media screen and (max-width: 900px) {
+    @media(max-width: 991px) {
         #thumbs {
             margin-left: 40px;
         }
@@ -253,7 +270,7 @@
     }
     /*i wrote this code to handle the blog header display on smaller screens*/
     
-    @media screen and (max-width: 700px) {
+    @media(max-width: 991px) {
         .intro-title {
             margin-top: 100px;
             font-size: small;
@@ -338,7 +355,7 @@
         color: rgb(255, 187, 0);
     }
     
-    @media screen and (max-width: 700px) {
+    @media(max-width: 991px) {
         #TOC {
             margin-left: 100px;
             width: 100px;
@@ -350,21 +367,6 @@
             margin-left: 120px;
         }
     }
-    /*.dark-theme {
-    filter: invert(1) hue-rotate(180deg);
-    background-color: #000;
-    color: #fff;
-}*/
-    /*body.dark-theme {
-  filter: invert(1) hue-rotate(180deg);
-}*/
-    /*.darkmode > button{
-  border: 2px solid #ffff00;
-  border-radius: 20px;
-  color: #fff;
-  background: #000;
-  padding: 10px;
-}*/
     
     #piechart {
         margin-left: 300px;
@@ -1089,7 +1091,7 @@
         margin-top: 50px;
     }
     
-    @media screen and (max-width: 600px) {
+    @media(max-width: 991px) {
         .cookie-container {
             color: #fff;
             text-align: center;
@@ -1139,7 +1141,7 @@
         width: 500px;
     }
     
-    @media screen and (max-width: 600px) {
+    @media(max-width: 991px) {
         progress .my-progress-bar {
             height: 0.7rem;
             width: 300px;
@@ -1714,11 +1716,5 @@
     @media (max-width: 768px) {
         .back-to-top {
             bottom: 15px;
-        }
-    }
-    
-    @media (orientation: portrait) {
-        .bg-image {
-            background: #000;
         }
     }
