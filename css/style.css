@@ -13,6 +13,26 @@
      color: #fff;
  }
  
+ .downloadCV {
+     color: #fff;
+     border: 1px solid black;
+     padding: 20px;
+     border-radius: 5px;
+     background-color: yellow;
+ }
+ 
+ .Cv {
+     margin-top: 70px;
+ }
+ 
+ .Cv1 {
+     color: #fff;
+     border: 1px solid #fff;
+     padding: 20px;
+     border-radius: 5px;
+     background-color: yellow;
+ }
+ 
  .dark h3 {
      color: #fff;
  }
